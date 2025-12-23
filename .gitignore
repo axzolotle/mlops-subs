@@ -1,0 +1,9 @@
+Eksperimen_fadillah-akbar/AIML_Dataset.csv
+Eksperimen_fadillah-akbar/preprocessing/data_clean.csv
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+.DS_Store
+.vscode/
