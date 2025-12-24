@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/704034715265121960/9b1e3d8dcd854a6bb68a8a8b64183285/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '704034715265121960'
+lifecycle_stage: active
+run_id: 9b1e3d8dcd854a6bb68a8a8b64183285
+run_name: rogue-bee-805
+run_uuid: 9b1e3d8dcd854a6bb68a8a8b64183285
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1766565827101
+status: 1
+tags: []
+user_id: axzolotle

@@ -1,0 +1,33 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+mlflow_version: 2.19.0
+model_size_bytes: 20232840
+model_uuid: 8f88737af3d64675a71858a4077f57d1
+run_id: 4be12b814361453ca22381cd1359099b
+signature:
+  inputs: '[{"type": "long", "name": "step", "required": true}, {"type": "double",
+    "name": "amount", "required": true}, {"type": "double", "name": "oldbalanceOrg",
+    "required": true}, {"type": "double", "name": "newbalanceOrig", "required": true},
+    {"type": "double", "name": "oldbalanceDest", "required": true}, {"type": "double",
+    "name": "newbalanceDest", "required": true}, {"type": "long", "name": "isFlaggedFraud",
+    "required": true}, {"type": "boolean", "name": "type_CASH_OUT", "required": true},
+    {"type": "boolean", "name": "type_DEBIT", "required": true}, {"type": "boolean",
+    "name": "type_PAYMENT", "required": true}, {"type": "boolean", "name": "type_TRANSFER",
+    "required": true}, {"type": "long", "name": "dest_freq", "required": true}, {"type":
+    "long", "name": "orig_freq", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2025-12-24 04:47:41.135561'

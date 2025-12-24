@@ -1,0 +1,16 @@
+digest: b94afbac
+name: dataset
+profile: '{"num_rows": 5090096, "num_elements": 66171248}'
+schema: '{"mlflow_colspec": [{"type": "long", "name": "step", "required": true}, {"type":
+  "double", "name": "amount", "required": true}, {"type": "double", "name": "oldbalanceOrg",
+  "required": true}, {"type": "double", "name": "newbalanceOrig", "required": true},
+  {"type": "double", "name": "oldbalanceDest", "required": true}, {"type": "double",
+  "name": "newbalanceDest", "required": true}, {"type": "long", "name": "isFlaggedFraud",
+  "required": true}, {"type": "boolean", "name": "type_CASH_OUT", "required": true},
+  {"type": "boolean", "name": "type_DEBIT", "required": true}, {"type": "boolean",
+  "name": "type_PAYMENT", "required": true}, {"type": "boolean", "name": "type_TRANSFER",
+  "required": true}, {"type": "long", "name": "dest_freq", "required": true}, {"type":
+  "long", "name": "orig_freq", "required": true}]}'
+source: '{"tags": {"mlflow.user": "axzolotle", "mlflow.source.name": "/Users/axzolotle/Code/Self-project/mlops-subs/membangun_model/modelling.py",
+  "mlflow.source.type": "LOCAL", "mlflow.source.git.commit": "8eeaa4d960bbb0d244fd3261501df8ceb44dcb9e"}}'
+source_type: code

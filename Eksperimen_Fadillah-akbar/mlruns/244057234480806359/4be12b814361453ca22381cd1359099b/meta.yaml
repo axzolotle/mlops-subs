@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/244057234480806359/4be12b814361453ca22381cd1359099b/artifacts
+end_time: 1766551736747
+entry_point_name: ''
+experiment_id: '244057234480806359'
+lifecycle_stage: active
+run_id: 4be12b814361453ca22381cd1359099b
+run_name: aged-jay-619
+run_uuid: 4be12b814361453ca22381cd1359099b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1766548363202
+status: 3
+tags: []
+user_id: axzolotle
